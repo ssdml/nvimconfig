@@ -29,3 +29,6 @@ set foldlevel=99
 
 " Mouse
 set mouse=a
+
+" Sign column
+set scl=yes

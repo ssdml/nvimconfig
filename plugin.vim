@@ -23,4 +23,7 @@ Plug 'scrooloose/syntastic'
 " Automatically clear highlight after cursor moved and some other autocmd event.
 Plug 'haya14busa/is.vim'
 
+" Autocompletion
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
 call plug#end()
