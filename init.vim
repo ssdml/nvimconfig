@@ -13,4 +13,6 @@ source $HOME/.config/nvim/plugconf/vim-airline.vim
 source $HOME/.config/nvim/plugconf/tagbar.vim
 source $HOME/.config/nvim/plugconf/nerdtree.vim
 source $HOME/.config/nvim/plugconf/fzf.vim
+source $HOME/.config/nvim/plugconf/coc.vim
+source $HOME/.config/nvim/plugconf/nercommenter.vim
 

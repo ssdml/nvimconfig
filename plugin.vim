@@ -10,6 +10,9 @@ Plug 'vim-airline/vim-airline-themes'
 " File exporer
 Plug 'preservim/nerdtree'
 
+" Icons
+" Plug 'ryanoasis/vim-devicons'
+
 " Show tags
 Plug 'majutsushi/tagbar'
 
@@ -17,13 +20,13 @@ Plug 'majutsushi/tagbar'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
-" Check syntax
-Plug 'scrooloose/syntastic'
-
-" Automatically clear highlight after cursor moved and some other autocmd event.
+" Automatically clear highlight after cursor moved and some other autocmd event
 Plug 'haya14busa/is.vim'
 
 " Autocompletion
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+
+" Comment lines
+Plug 'preservim/nerdcommenter'
 
 call plug#end()

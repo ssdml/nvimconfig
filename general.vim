@@ -1,6 +1,9 @@
 " Leaderkey
 let mapleader = "\<Space>"
 
+set hidden
+
+set encoding=UTF-8
 
 set number relativenumber       " line numbers
 set numberwidth=5               " line number width	
@@ -32,3 +35,4 @@ set mouse=a
 
 " Sign column
 set scl=yes
+

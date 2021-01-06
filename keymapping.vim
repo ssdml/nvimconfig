@@ -29,8 +29,8 @@ nmap <leader>V "+P
 xnoremap <silent> p p:let @"=@0<CR>
 
 " Shortcut for replacing
-nmap <leader>r :%s//g<left><left>
+nmap <leader>rr :%s//g<left><left>
 
 " Shortcut for replacing selected text.
 " Copy selected to "r" - register, then past it into replacement command.
-xmap <leader>r "ry:%s/<C-r>r//g<left><left>
+xmap <leader>rr "ry:%s/<C-r>r//g<left><left>
